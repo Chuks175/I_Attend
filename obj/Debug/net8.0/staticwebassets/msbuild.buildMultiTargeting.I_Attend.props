@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\I_Attend.props" />
+</Project>
