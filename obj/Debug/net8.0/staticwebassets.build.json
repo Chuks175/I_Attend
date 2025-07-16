@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CTzcxxOlbrkxJXzSpsvR3F7onOeBG8uXUXwUcYPfFfU=",
+  "Hash": "Z49YnVcfpTvG8dallDy0dO1xPTRFiBzWJxqGHfnXsV8=",
   "Source": "I_Attend",
   "BasePath": "_content/I_Attend",
   "Mode": "Default",
@@ -1319,6 +1319,384 @@
       "OriginalItemSpec": "C:\\Users\\Choox\\source\\repos\\I_Attend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\I_Attend.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\062832f7-99f4-464d-89ed-85d24184b087.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/062832f7-99f4-464d-89ed-85d24184b087#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mh1zcltdqe",
+      "Integrity": "SgI8DqlB/BIQuSprJsEX+p1HH95LXu0TRoQDv5xWca0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\062832f7-99f4-464d-89ed-85d24184b087.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\1a7e1d9e-2aff-4030-ab73-94f48945a9a4.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/1a7e1d9e-2aff-4030-ab73-94f48945a9a4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5zzp2ido0l",
+      "Integrity": "n+PsCZgi1YTlF0l+AUDJuWlJDXNEJpEB4KQmPXV/Q9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\1a7e1d9e-2aff-4030-ab73-94f48945a9a4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3031fd7b-fbbe-4975-a2ff-6863a2e446e5.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/3031fd7b-fbbe-4975-a2ff-6863a2e446e5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jnh7l7797m",
+      "Integrity": "H7ZyXG65z7MU8kmO+6AyWRBAr3xDeyvBCJrflj59fGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\3031fd7b-fbbe-4975-a2ff-6863a2e446e5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\30b3b383-d5a9-4b69-bd1e-8a992b678cbf.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/30b3b383-d5a9-4b69-bd1e-8a992b678cbf#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p038h2povc",
+      "Integrity": "SUp8eLSdgI0/C5CMydCjcwtC6W+CJQUTQIE2hoI1fOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\30b3b383-d5a9-4b69-bd1e-8a992b678cbf.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3b0e7079-60ff-41ba-82b1-c4ea75928ab4.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/3b0e7079-60ff-41ba-82b1-c4ea75928ab4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqnmzrfiyn",
+      "Integrity": "s+DwER5GSOJkKvEZw5kA6KP5z6Nf6MH7NhCYMBbDStY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\3b0e7079-60ff-41ba-82b1-c4ea75928ab4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h2dke76209",
+      "Integrity": "11Y1usas/IjzSZVWi8QBI6jXdEipj2FAcFPeaPuk/p0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pb8cmp0ea7",
+      "Integrity": "JQ8UG7GRlysNm/1n+yrWdPe22C3z96JWRsXQoy2HFQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rtndrlg593",
+      "Integrity": "IZclpkzuQSrSzfstlanO5B4oAFu6VnXtCsMdw+I0/po=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8zf07y90fq",
+      "Integrity": "HPAz8vh5v07n75Y7/5cJHEpE86u8wrFg754+tY2oS0c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\576aaca6-581b-45a6-bb6b-33cca3224ec0.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/576aaca6-581b-45a6-bb6b-33cca3224ec0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ezknjk3mgv",
+      "Integrity": "+jzfBFwoq/oENyEHuyqKbs0jvM5pYhLDJT3xXZ8vdms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\576aaca6-581b-45a6-bb6b-33cca3224ec0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "337f525whv",
+      "Integrity": "YXHPOPtleAayg6xJN8xWo0Zv0ob3MKvgU9Y+d2HOBRo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "faxmxlhsnl",
+      "Integrity": "B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\6aa6912a-84f8-45f2-8035-44ff8ac0216e.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/6aa6912a-84f8-45f2-8035-44ff8ac0216e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8vp61isqdu",
+      "Integrity": "dDF7ZB85nDU0A2mcVaBS5oqAUCx6FBNj/g+YzMTbHuY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\6aa6912a-84f8-45f2-8035-44ff8ac0216e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "faxmxlhsnl",
+      "Integrity": "B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "10epdgqak4",
+      "Integrity": "IaDz0SVbo41w7C/eXwQTqZKTI/jRoxjnNxSIEcM00kw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\c3f5be26-57b9-45d5-9326-0a5e97f03997.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/c3f5be26-57b9-45d5-9326-0a5e97f03997#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kbitykk2ij",
+      "Integrity": "APRI0TYqMEYQozQet6/tWoDImJyoiQIC+6gttfAjbPM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\c3f5be26-57b9-45d5-9326-0a5e97f03997.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hv2j0ady9d",
+      "Integrity": "s7JiSmA0XeTP5Z0k7GUTXDn006QjsgMZ3S9lKkGWOuQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\dd0588a9-e854-4afd-818b-ef619c6d016a.jpg",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "CameraPhotos/dd0588a9-e854-4afd-818b-ef619c6d016a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "shqsjekm4q",
+      "Integrity": "4N9sq4xuXs3eqvBGR1TtKvjnxA1pFj6EzuP0P888914=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CameraPhotos\\dd0588a9-e854-4afd-818b-ef619c6d016a.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\css\\site.css",
       "SourceId": "I_Attend",
       "SourceType": "Discovered",
@@ -1333,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "cyaaxfwc9h",
+      "Integrity": "DE2BnqwNPi/8Wtmv4QoB1m/3DqlVaCs/wbkHSwOgX94=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2577,12 +2955,327 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\bower.json",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/bower#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rgs2ha5trc",
+      "Integrity": "m6XT+mAUO3la8V+gZ8h+yYg5c7UFuhFw2NsPJrXLzqE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\bower.json"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\build.sh",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/build#[.{fingerprint}]?.sh",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f10dz2zp36",
+      "Integrity": "c/ztnQh+X4BV2NoXB5Pb5U7lCw5dMfeBVpiqa6+SV/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\build.sh"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\DOCS.md",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/DOCS#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "epra2a8g0d",
+      "Integrity": "PiuakG2zMkGE/17yBe6lp5mRo3FsU2vfaWefVGW8zP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\DOCS.md"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\BitString.as",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/flash/com/adobe/images/BitString#[.{fingerprint}]?.as",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zrhvlnx6y1",
+      "Integrity": "QROOMBsYksCtuez45/4yXz523o5Vs37EslXjUuRlqd4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\flash\\com\\adobe\\images\\BitString.as"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\JPGEncoder.as",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/flash/com/adobe/images/JPGEncoder#[.{fingerprint}]?.as",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bqubut60wj",
+      "Integrity": "U0JE+KAOS+gBreDbnwAe222mkmhOQIStJS2SSS0EZDc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\flash\\com\\adobe\\images\\JPGEncoder.as"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\PNGEncoder.as",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/flash/com/adobe/images/PNGEncoder#[.{fingerprint}]?.as",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gopjqy9l0i",
+      "Integrity": "QAXjtdaZNlWFe4i0Ouf9w1moZWyqgpu3UcTc+PzOZfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\flash\\com\\adobe\\images\\PNGEncoder.as"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\mx\\utils\\Base64Encoder.as",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/flash/mx/utils/Base64Encoder#[.{fingerprint}]?.as",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1oj3wq3b8d",
+      "Integrity": "r8HOMBVO6KyrF8JAbo+EHXMya8tKC4I39DnVLEMjODI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\flash\\mx\\utils\\Base64Encoder.as"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\README.txt",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/flash/README#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c8h9w5zib8",
+      "Integrity": "fMOaaJLUS/pvB85CwdXsaR5gbWertVD7aISvXeR0FuI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\flash\\README.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\Webcam.as",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/flash/Webcam#[.{fingerprint}]?.as",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4r78pgxwyd",
+      "Integrity": "QOL/VmUXHfx19yWZHH9sgUy+JlmDGX9EzV8KcDQ5PAk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\flash\\Webcam.as"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\Webcam.fla",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/flash/Webcam#[.{fingerprint}]?.fla",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z0unpp1s8b",
+      "Integrity": "w8QtHY5yGvc04MLX9qga+HWBiBjon5OuZu12sk91roc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\flash\\Webcam.fla"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\LICENSE",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1ibmhp7g5",
+      "Integrity": "HDoB+SGIIC14LtNZoZAb6gcqSeBu0jiKXO2dqduSqOw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\package.json",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/package#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xmunrqdait",
+      "Integrity": "JxIuIChF9+ijeA1OVlDbO2+33cbPSnIcROwCEAPuJ+s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\package.json"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\README.md",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b8b4awe5f9",
+      "Integrity": "JQSr5Mo6pLqVBcSghrBZORROvo+TM2C8LXikMhKM5yM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\webcam.js",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/webcam#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3rjmsno1e5",
+      "Integrity": "gdqDecZrU4roLTu6gfQO0kuicBmEEUJGHiI7sbkmXs8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\webcam.js"
+    },
+    {
+      "Identity": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\webcam.swf",
+      "SourceId": "I_Attend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\",
+      "BasePath": "_content/I_Attend",
+      "RelativePath": "webcam/webcam#[.{fingerprint}]?.swf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i03mayfbu8",
+      "Integrity": "PoUZ8BSA6m/70CzgynCZizp/xjIRJO6gaG8XFUR/RFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam\\webcam.swf"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\css\\site.css",
+      "Route": "CameraPhotos/062832f7-99f4-464d-89ed-85d24184b087.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\062832f7-99f4-464d-89ed-85d24184b087.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2591,19 +3284,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "34827"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"SgI8DqlB/BIQuSprJsEX+p1HH95LXu0TRoQDv5xWca0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 09:17:05 GMT"
+          "Value": "Sun, 15 Jun 2025 12:39:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SgI8DqlB/BIQuSprJsEX+p1HH95LXu0TRoQDv5xWca0="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/062832f7-99f4-464d-89ed-85d24184b087.mh1zcltdqe.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\062832f7-99f4-464d-89ed-85d24184b087.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SgI8DqlB/BIQuSprJsEX+p1HH95LXu0TRoQDv5xWca0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:39:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2613,15 +3343,1409 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "mh1zcltdqe"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "CameraPhotos/062832f7-99f4-464d-89ed-85d24184b087.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-SgI8DqlB/BIQuSprJsEX+p1HH95LXu0TRoQDv5xWca0="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/1a7e1d9e-2aff-4030-ab73-94f48945a9a4.5zzp2ido0l.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\1a7e1d9e-2aff-4030-ab73-94f48945a9a4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n+PsCZgi1YTlF0l+AUDJuWlJDXNEJpEB4KQmPXV/Q9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5zzp2ido0l"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/1a7e1d9e-2aff-4030-ab73-94f48945a9a4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n+PsCZgi1YTlF0l+AUDJuWlJDXNEJpEB4KQmPXV/Q9c="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/1a7e1d9e-2aff-4030-ab73-94f48945a9a4.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\1a7e1d9e-2aff-4030-ab73-94f48945a9a4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n+PsCZgi1YTlF0l+AUDJuWlJDXNEJpEB4KQmPXV/Q9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n+PsCZgi1YTlF0l+AUDJuWlJDXNEJpEB4KQmPXV/Q9c="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/3031fd7b-fbbe-4975-a2ff-6863a2e446e5.jnh7l7797m.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3031fd7b-fbbe-4975-a2ff-6863a2e446e5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7ZyXG65z7MU8kmO+6AyWRBAr3xDeyvBCJrflj59fGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jnh7l7797m"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/3031fd7b-fbbe-4975-a2ff-6863a2e446e5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7ZyXG65z7MU8kmO+6AyWRBAr3xDeyvBCJrflj59fGw="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/3031fd7b-fbbe-4975-a2ff-6863a2e446e5.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3031fd7b-fbbe-4975-a2ff-6863a2e446e5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7ZyXG65z7MU8kmO+6AyWRBAr3xDeyvBCJrflj59fGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7ZyXG65z7MU8kmO+6AyWRBAr3xDeyvBCJrflj59fGw="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/30b3b383-d5a9-4b69-bd1e-8a992b678cbf.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\30b3b383-d5a9-4b69-bd1e-8a992b678cbf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SUp8eLSdgI0/C5CMydCjcwtC6W+CJQUTQIE2hoI1fOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:03:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SUp8eLSdgI0/C5CMydCjcwtC6W+CJQUTQIE2hoI1fOg="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/30b3b383-d5a9-4b69-bd1e-8a992b678cbf.p038h2povc.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\30b3b383-d5a9-4b69-bd1e-8a992b678cbf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SUp8eLSdgI0/C5CMydCjcwtC6W+CJQUTQIE2hoI1fOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:03:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p038h2povc"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/30b3b383-d5a9-4b69-bd1e-8a992b678cbf.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SUp8eLSdgI0/C5CMydCjcwtC6W+CJQUTQIE2hoI1fOg="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/3b0e7079-60ff-41ba-82b1-c4ea75928ab4.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3b0e7079-60ff-41ba-82b1-c4ea75928ab4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+DwER5GSOJkKvEZw5kA6KP5z6Nf6MH7NhCYMBbDStY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:38:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+DwER5GSOJkKvEZw5kA6KP5z6Nf6MH7NhCYMBbDStY="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/3b0e7079-60ff-41ba-82b1-c4ea75928ab4.rqnmzrfiyn.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3b0e7079-60ff-41ba-82b1-c4ea75928ab4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+DwER5GSOJkKvEZw5kA6KP5z6Nf6MH7NhCYMBbDStY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:38:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqnmzrfiyn"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/3b0e7079-60ff-41ba-82b1-c4ea75928ab4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+DwER5GSOJkKvEZw5kA6KP5z6Nf6MH7NhCYMBbDStY="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb.h2dke76209.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"11Y1usas/IjzSZVWi8QBI6jXdEipj2FAcFPeaPuk/p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h2dke76209"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-11Y1usas/IjzSZVWi8QBI6jXdEipj2FAcFPeaPuk/p0="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\3ce6c7f1-a9bb-4564-9b39-5d5088e3d5eb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"11Y1usas/IjzSZVWi8QBI6jXdEipj2FAcFPeaPuk/p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-11Y1usas/IjzSZVWi8QBI6jXdEipj2FAcFPeaPuk/p0="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQ8UG7GRlysNm/1n+yrWdPe22C3z96JWRsXQoy2HFQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:32:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQ8UG7GRlysNm/1n+yrWdPe22C3z96JWRsXQoy2HFQU="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017.pb8cmp0ea7.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQ8UG7GRlysNm/1n+yrWdPe22C3z96JWRsXQoy2HFQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:32:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pb8cmp0ea7"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/4060bf3b-888a-4a39-865c-21fcc3af71d2_20EG01017.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQ8UG7GRlysNm/1n+yrWdPe22C3z96JWRsXQoy2HFQU="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZclpkzuQSrSzfstlanO5B4oAFu6VnXtCsMdw+I0/po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 05:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZclpkzuQSrSzfstlanO5B4oAFu6VnXtCsMdw+I0/po="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022.rtndrlg593.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZclpkzuQSrSzfstlanO5B4oAFu6VnXtCsMdw+I0/po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 05:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rtndrlg593"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/48a0a710-31b3-4955-bd68-8a9d828f9e71_20MN02022.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZclpkzuQSrSzfstlanO5B4oAFu6VnXtCsMdw+I0/po="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3.8zf07y90fq.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HPAz8vh5v07n75Y7/5cJHEpE86u8wrFg754+tY2oS0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:13:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8zf07y90fq"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HPAz8vh5v07n75Y7/5cJHEpE86u8wrFg754+tY2oS0c="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\54bba2ec-25ed-4d9b-8ebf-af0dd426a5a3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HPAz8vh5v07n75Y7/5cJHEpE86u8wrFg754+tY2oS0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:13:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HPAz8vh5v07n75Y7/5cJHEpE86u8wrFg754+tY2oS0c="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/576aaca6-581b-45a6-bb6b-33cca3224ec0.ezknjk3mgv.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\576aaca6-581b-45a6-bb6b-33cca3224ec0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+jzfBFwoq/oENyEHuyqKbs0jvM5pYhLDJT3xXZ8vdms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ezknjk3mgv"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/576aaca6-581b-45a6-bb6b-33cca3224ec0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+jzfBFwoq/oENyEHuyqKbs0jvM5pYhLDJT3xXZ8vdms="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/576aaca6-581b-45a6-bb6b-33cca3224ec0.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\576aaca6-581b-45a6-bb6b-33cca3224ec0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+jzfBFwoq/oENyEHuyqKbs0jvM5pYhLDJT3xXZ8vdms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+jzfBFwoq/oENyEHuyqKbs0jvM5pYhLDJT3xXZ8vdms="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012.337f525whv.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YXHPOPtleAayg6xJN8xWo0Zv0ob3MKvgU9Y+d2HOBRo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 21:12:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "337f525whv"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YXHPOPtleAayg6xJN8xWo0Zv0ob3MKvgU9Y+d2HOBRo="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\590e9784-3ad5-47bc-9d9c-45e0d71ee85e_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YXHPOPtleAayg6xJN8xWo0Zv0ob3MKvgU9Y+d2HOBRo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 21:12:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YXHPOPtleAayg6xJN8xWo0Zv0ob3MKvgU9Y+d2HOBRo="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012.faxmxlhsnl.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 09:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "faxmxlhsnl"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\68c9a4e2-bbc1-48fa-ac10-b64b1cf8c445_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 09:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/6aa6912a-84f8-45f2-8035-44ff8ac0216e.8vp61isqdu.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\6aa6912a-84f8-45f2-8035-44ff8ac0216e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dDF7ZB85nDU0A2mcVaBS5oqAUCx6FBNj/g+YzMTbHuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:02:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8vp61isqdu"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/6aa6912a-84f8-45f2-8035-44ff8ac0216e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dDF7ZB85nDU0A2mcVaBS5oqAUCx6FBNj/g+YzMTbHuY="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/6aa6912a-84f8-45f2-8035-44ff8ac0216e.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\6aa6912a-84f8-45f2-8035-44ff8ac0216e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dDF7ZB85nDU0A2mcVaBS5oqAUCx6FBNj/g+YzMTbHuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:02:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dDF7ZB85nDU0A2mcVaBS5oqAUCx6FBNj/g+YzMTbHuY="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012.faxmxlhsnl.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 09:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "faxmxlhsnl"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\854563ff-3b00-4b5b-8105-cf514a1aea05_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 09:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B5en/s7wY2VT4I8RO5Fv7eBi95Tosnk99BJP8BXlFD4="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012.10epdgqak4.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IaDz0SVbo41w7C/eXwQTqZKTI/jRoxjnNxSIEcM00kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 23:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "10epdgqak4"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IaDz0SVbo41w7C/eXwQTqZKTI/jRoxjnNxSIEcM00kw="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\aff2b3a2-439d-4dad-ab86-3384e6983735_20EG01012.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IaDz0SVbo41w7C/eXwQTqZKTI/jRoxjnNxSIEcM00kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 23:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IaDz0SVbo41w7C/eXwQTqZKTI/jRoxjnNxSIEcM00kw="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/c3f5be26-57b9-45d5-9326-0a5e97f03997.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\c3f5be26-57b9-45d5-9326-0a5e97f03997.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"APRI0TYqMEYQozQet6/tWoDImJyoiQIC+6gttfAjbPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-APRI0TYqMEYQozQet6/tWoDImJyoiQIC+6gttfAjbPM="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/c3f5be26-57b9-45d5-9326-0a5e97f03997.kbitykk2ij.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\c3f5be26-57b9-45d5-9326-0a5e97f03997.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"APRI0TYqMEYQozQet6/tWoDImJyoiQIC+6gttfAjbPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbitykk2ij"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/c3f5be26-57b9-45d5-9326-0a5e97f03997.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-APRI0TYqMEYQozQet6/tWoDImJyoiQIC+6gttfAjbPM="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020.hv2j0ady9d.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s7JiSmA0XeTP5Z0k7GUTXDn006QjsgMZ3S9lKkGWOuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 00:28:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hv2j0ady9d"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s7JiSmA0XeTP5Z0k7GUTXDn006QjsgMZ3S9lKkGWOuQ="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\c606f5ba-179a-4820-b599-faf5d1bc1ed7_24EG02020.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s7JiSmA0XeTP5Z0k7GUTXDn006QjsgMZ3S9lKkGWOuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 00:28:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s7JiSmA0XeTP5Z0k7GUTXDn006QjsgMZ3S9lKkGWOuQ="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/dd0588a9-e854-4afd-818b-ef619c6d016a.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\dd0588a9-e854-4afd-818b-ef619c6d016a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4N9sq4xuXs3eqvBGR1TtKvjnxA1pFj6EzuP0P888914=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:09:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4N9sq4xuXs3eqvBGR1TtKvjnxA1pFj6EzuP0P888914="
+        }
+      ]
+    },
+    {
+      "Route": "CameraPhotos/dd0588a9-e854-4afd-818b-ef619c6d016a.shqsjekm4q.jpg",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\CameraPhotos\\dd0588a9-e854-4afd-818b-ef619c6d016a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4N9sq4xuXs3eqvBGR1TtKvjnxA1pFj6EzuP0P888914=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 22:09:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "shqsjekm4q"
+        },
+        {
+          "Name": "label",
+          "Value": "CameraPhotos/dd0588a9-e854-4afd-818b-ef619c6d016a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4N9sq4xuXs3eqvBGR1TtKvjnxA1pFj6EzuP0P888914="
         }
       ]
     },
@@ -2636,7 +4760,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "394"
         },
         {
           "Name": "Content-Type",
@@ -2644,11 +4768,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"DE2BnqwNPi/8Wtmv4QoB1m/3DqlVaCs/wbkHSwOgX94=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 09:17:05 GMT"
+          "Value": "Mon, 09 Jun 2025 11:41:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2658,7 +4782,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-DE2BnqwNPi/8Wtmv4QoB1m/3DqlVaCs/wbkHSwOgX94="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.cyaaxfwc9h.css",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE2BnqwNPi/8Wtmv4QoB1m/3DqlVaCs/wbkHSwOgX94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 11:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cyaaxfwc9h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE2BnqwNPi/8Wtmv4QoB1m/3DqlVaCs/wbkHSwOgX94="
         }
       ]
     },
@@ -9881,6 +12050,1236 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/bower.json",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m6XT+mAUO3la8V+gZ8h+yYg5c7UFuhFw2NsPJrXLzqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m6XT+mAUO3la8V+gZ8h+yYg5c7UFuhFw2NsPJrXLzqE="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/bower.rgs2ha5trc.json",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m6XT+mAUO3la8V+gZ8h+yYg5c7UFuhFw2NsPJrXLzqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rgs2ha5trc"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/bower.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m6XT+mAUO3la8V+gZ8h+yYg5c7UFuhFw2NsPJrXLzqE="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/build.f10dz2zp36.sh",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\build.sh",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-sh"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/ztnQh+X4BV2NoXB5Pb5U7lCw5dMfeBVpiqa6+SV/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f10dz2zp36"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/build.sh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/ztnQh+X4BV2NoXB5Pb5U7lCw5dMfeBVpiqa6+SV/o="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/build.sh",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\build.sh",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-sh"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/ztnQh+X4BV2NoXB5Pb5U7lCw5dMfeBVpiqa6+SV/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/ztnQh+X4BV2NoXB5Pb5U7lCw5dMfeBVpiqa6+SV/o="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/DOCS.epra2a8g0d.md",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\DOCS.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiuakG2zMkGE/17yBe6lp5mRo3FsU2vfaWefVGW8zP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "epra2a8g0d"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/DOCS.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PiuakG2zMkGE/17yBe6lp5mRo3FsU2vfaWefVGW8zP8="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/DOCS.md",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\DOCS.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiuakG2zMkGE/17yBe6lp5mRo3FsU2vfaWefVGW8zP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PiuakG2zMkGE/17yBe6lp5mRo3FsU2vfaWefVGW8zP8="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/com/adobe/images/BitString.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\BitString.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QROOMBsYksCtuez45/4yXz523o5Vs37EslXjUuRlqd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QROOMBsYksCtuez45/4yXz523o5Vs37EslXjUuRlqd4="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/com/adobe/images/BitString.zrhvlnx6y1.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\BitString.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QROOMBsYksCtuez45/4yXz523o5Vs37EslXjUuRlqd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zrhvlnx6y1"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/flash/com/adobe/images/BitString.as"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QROOMBsYksCtuez45/4yXz523o5Vs37EslXjUuRlqd4="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/com/adobe/images/JPGEncoder.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\JPGEncoder.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U0JE+KAOS+gBreDbnwAe222mkmhOQIStJS2SSS0EZDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U0JE+KAOS+gBreDbnwAe222mkmhOQIStJS2SSS0EZDc="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/com/adobe/images/JPGEncoder.bqubut60wj.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\JPGEncoder.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U0JE+KAOS+gBreDbnwAe222mkmhOQIStJS2SSS0EZDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bqubut60wj"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/flash/com/adobe/images/JPGEncoder.as"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U0JE+KAOS+gBreDbnwAe222mkmhOQIStJS2SSS0EZDc="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/com/adobe/images/PNGEncoder.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\PNGEncoder.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QAXjtdaZNlWFe4i0Ouf9w1moZWyqgpu3UcTc+PzOZfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QAXjtdaZNlWFe4i0Ouf9w1moZWyqgpu3UcTc+PzOZfU="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/com/adobe/images/PNGEncoder.gopjqy9l0i.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\com\\adobe\\images\\PNGEncoder.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QAXjtdaZNlWFe4i0Ouf9w1moZWyqgpu3UcTc+PzOZfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gopjqy9l0i"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/flash/com/adobe/images/PNGEncoder.as"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QAXjtdaZNlWFe4i0Ouf9w1moZWyqgpu3UcTc+PzOZfU="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/mx/utils/Base64Encoder.1oj3wq3b8d.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\mx\\utils\\Base64Encoder.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r8HOMBVO6KyrF8JAbo+EHXMya8tKC4I39DnVLEMjODI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1oj3wq3b8d"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/flash/mx/utils/Base64Encoder.as"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r8HOMBVO6KyrF8JAbo+EHXMya8tKC4I39DnVLEMjODI="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/mx/utils/Base64Encoder.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\mx\\utils\\Base64Encoder.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r8HOMBVO6KyrF8JAbo+EHXMya8tKC4I39DnVLEMjODI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r8HOMBVO6KyrF8JAbo+EHXMya8tKC4I39DnVLEMjODI="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/README.c8h9w5zib8.txt",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\README.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fMOaaJLUS/pvB85CwdXsaR5gbWertVD7aISvXeR0FuI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c8h9w5zib8"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/flash/README.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fMOaaJLUS/pvB85CwdXsaR5gbWertVD7aISvXeR0FuI="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/README.txt",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\README.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fMOaaJLUS/pvB85CwdXsaR5gbWertVD7aISvXeR0FuI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fMOaaJLUS/pvB85CwdXsaR5gbWertVD7aISvXeR0FuI="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/Webcam.4r78pgxwyd.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\Webcam.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QOL/VmUXHfx19yWZHH9sgUy+JlmDGX9EzV8KcDQ5PAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4r78pgxwyd"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/flash/Webcam.as"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QOL/VmUXHfx19yWZHH9sgUy+JlmDGX9EzV8KcDQ5PAk="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/Webcam.as",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\Webcam.as",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QOL/VmUXHfx19yWZHH9sgUy+JlmDGX9EzV8KcDQ5PAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QOL/VmUXHfx19yWZHH9sgUy+JlmDGX9EzV8KcDQ5PAk="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/Webcam.fla",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\Webcam.fla",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w8QtHY5yGvc04MLX9qga+HWBiBjon5OuZu12sk91roc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w8QtHY5yGvc04MLX9qga+HWBiBjon5OuZu12sk91roc="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/flash/Webcam.z0unpp1s8b.fla",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\flash\\Webcam.fla",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w8QtHY5yGvc04MLX9qga+HWBiBjon5OuZu12sk91roc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z0unpp1s8b"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/flash/Webcam.fla"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w8QtHY5yGvc04MLX9qga+HWBiBjon5OuZu12sk91roc="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/LICENSE",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HDoB+SGIIC14LtNZoZAb6gcqSeBu0jiKXO2dqduSqOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HDoB+SGIIC14LtNZoZAb6gcqSeBu0jiKXO2dqduSqOw="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/LICENSE.o1ibmhp7g5",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HDoB+SGIIC14LtNZoZAb6gcqSeBu0jiKXO2dqduSqOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1ibmhp7g5"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HDoB+SGIIC14LtNZoZAb6gcqSeBu0jiKXO2dqduSqOw="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/package.json",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JxIuIChF9+ijeA1OVlDbO2+33cbPSnIcROwCEAPuJ+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JxIuIChF9+ijeA1OVlDbO2+33cbPSnIcROwCEAPuJ+s="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/package.xmunrqdait.json",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JxIuIChF9+ijeA1OVlDbO2+33cbPSnIcROwCEAPuJ+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xmunrqdait"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/package.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JxIuIChF9+ijeA1OVlDbO2+33cbPSnIcROwCEAPuJ+s="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/README.b8b4awe5f9.md",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQSr5Mo6pLqVBcSghrBZORROvo+TM2C8LXikMhKM5yM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b8b4awe5f9"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQSr5Mo6pLqVBcSghrBZORROvo+TM2C8LXikMhKM5yM="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/README.md",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQSr5Mo6pLqVBcSghrBZORROvo+TM2C8LXikMhKM5yM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQSr5Mo6pLqVBcSghrBZORROvo+TM2C8LXikMhKM5yM="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/webcam.3rjmsno1e5.js",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\webcam.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdqDecZrU4roLTu6gfQO0kuicBmEEUJGHiI7sbkmXs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 20:57:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3rjmsno1e5"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/webcam.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdqDecZrU4roLTu6gfQO0kuicBmEEUJGHiI7sbkmXs8="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/webcam.i03mayfbu8.swf",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\webcam.swf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-shockwave-flash"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PoUZ8BSA6m/70CzgynCZizp/xjIRJO6gaG8XFUR/RFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i03mayfbu8"
+        },
+        {
+          "Name": "label",
+          "Value": "webcam/webcam.swf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PoUZ8BSA6m/70CzgynCZizp/xjIRJO6gaG8XFUR/RFM="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/webcam.js",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\webcam.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdqDecZrU4roLTu6gfQO0kuicBmEEUJGHiI7sbkmXs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 20:57:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdqDecZrU4roLTu6gfQO0kuicBmEEUJGHiI7sbkmXs8="
+        }
+      ]
+    },
+    {
+      "Route": "webcam/webcam.swf",
+      "AssetFile": "C:\\Users\\Choox\\source\\repos\\I_Attend\\wwwroot\\webcam\\webcam.swf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-shockwave-flash"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PoUZ8BSA6m/70CzgynCZizp/xjIRJO6gaG8XFUR/RFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 Mar 2018 21:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PoUZ8BSA6m/70CzgynCZizp/xjIRJO6gaG8XFUR/RFM="
         }
       ]
     }

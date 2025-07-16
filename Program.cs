@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using I_Attend.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -22,9 +24,19 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/Views/Logout";
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
     });
-builder.Services.AddScoped<I_AttendDAO>(provider =>
+
+builder.Services.AddAuthorization(options =>
+{
+    // Policy for authenticated users only
+    options.AddPolicy("AuthenticatedOnly", policy =>
+        policy.RequireAuthenticatedUser());
+
+});
+
+builder.Services.AddScoped<I_AttendDAO >(provider =>
     new I_AttendDAO(builder.Configuration.GetConnectionString("DefaultConnection"),
         provider.GetService<ILogger<I_AttendDAO>>()));
+
 
 var app = builder.Build();
 
@@ -42,6 +54,8 @@ else
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseSession();
 
 app.MapControllerRoute(

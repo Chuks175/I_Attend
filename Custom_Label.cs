@@ -12,7 +12,7 @@ namespace I_Attend
         public int UserNames;
         public int Matric_Number;
         public int department;
-
+        public int ImageData;
         public void CustomLabel() {}
 
         //public static void Main()
@@ -36,6 +36,11 @@ namespace I_Attend
         [DataType(DataType.MultilineText)]
         //[ScaffoldColumn(false)]
         public object department { get; set; }
+
+        [Required]
+        [DataType(DataType.Custom)]
+        //[ScaffoldColumn(false)]
+        public object ImageData { get; set; }
 
     }
 }

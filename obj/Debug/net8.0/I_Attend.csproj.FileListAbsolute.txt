@@ -321,3 +321,7 @@ C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\Microsoft.Extensions.Local
 C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\I_Attend.sourcelink.json
+C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll

@@ -1,9 +1,251 @@
-﻿using System.Linq;
+﻿//using System.Linq;
+//using System.Threading.Tasks;
+//using Microsoft.AspNetCore.Mvc;
+//using I_Attend.Data;
+//using I_Attend.Models;
+//using Microsoft.Extensions.Logging;
+//using System.Security.Claims;
+//using Microsoft.AspNetCore.Authorization;
+//using Microsoft.AspNetCore.Authentication.Cookies;
+//using Microsoft.AspNetCore.Authentication;
+
+//namespace I_Attend.Controllers
+//{
+//    public class ViewsController : Controller
+//    {
+//        private readonly I_AttendDAO _context;
+//        private readonly ILogger<ViewsController> _logger;
+
+//        public ViewsController(I_AttendDAO context, ILogger<ViewsController> logger)
+//        {
+//            _context = context;
+//            _logger = logger;
+//        }
+
+//        public async Task<IActionResult> Index()
+//        {
+//            var views = await _context.GetViewsAsync();
+//            return View(views);
+//        }
+
+//        [Authorize(Policy = "AuthenticatedOnly")]
+//        public async Task<IActionResult> Details(int? id)
+//        {
+//            if (id == null)
+//            {
+//                return NotFound();
+//            }
+//            var view = (await _context.GetViewsAsync()).FirstOrDefault(m => m.Id == id);
+//            if (view == null)
+//            {
+//                return NotFound();
+//            }
+//            return View(view);
+//        }
+
+//        public IActionResult Create()
+//        {
+//            return View();
+//        }
+
+//        [HttpPost]
+//        [ValidateAntiForgeryToken]
+//        public async Task<IActionResult> Create(View model)
+//        {
+//            if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number))
+//            {
+//                ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
+//                return View(model);
+//            }
+//            if (ModelState.IsValid)
+//            {
+//                await _context.AddViewAsync(model);
+//                // Sign in the user after registration
+//                var claims = new List<Claim>
+//                {
+//                    new Claim(ClaimTypes.Name, model.UserNames),
+//                    new Claim(ClaimTypes.Email, model.Email),
+//                    new Claim("MatricNumber", model.Matric_Number)
+//                };
+//                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+//                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+//                return RedirectToAction("Capture", "Camera");
+//            }
+//            return View(model);
+//        }
+
+//        [Authorize(Policy = "AuthenticatedOnly")]
+//        public async Task<IActionResult> Edit(int? id)
+//        {
+//            if (id == null)
+//            {
+//                return NotFound();
+//            }
+//            var view = (await _context.GetViewsAsync()).FirstOrDefault(m => m.Id == id);
+//            if (view == null)
+//            {
+//                return NotFound();
+//            }
+//            return View(view);
+//        }
+
+//        [Authorize(Policy = "AuthenticatedOnly")]
+//        [HttpPost]
+//        [ValidateAntiForgeryToken]
+//        public async Task<IActionResult> Edit(int id, View view)
+//        {
+//            if (id != view.Id)
+//            {
+//                return NotFound();
+//            }
+//            if (ModelState.IsValid)
+//            {
+//                try
+//                {
+//                    await _context.UpdateViewAsync(view);
+//                    return RedirectToAction(nameof(Index));
+//                }
+//                catch (Exception ex)
+//                {
+//                    _logger.LogError(ex, "Error updating view with ID {Id}", view.Id);
+//                    if (!await _context.ViewExistsAsync(view.Id))
+//                    {
+//                        return NotFound();
+//                    }
+//                    throw;
+//                }
+//            }
+//            return View(view);
+//        }
+
+//        [Authorize(Policy = "AuthenticatedOnly")]
+//        public async Task<IActionResult> Delete(int? id)
+//        {
+//            if (id == null)
+//            {
+//                return NotFound();
+//            }
+//            var view = (await _context.GetViewsAsync()).FirstOrDefault(m => m.Id == id);
+//            if (view == null)
+//            {
+//                return NotFound();
+//            }
+//            return View(view);
+//        }
+
+//        [Authorize(Policy = "AuthenticatedOnly")]
+//        [HttpPost, ActionName("Delete")]
+//        [ValidateAntiForgeryToken]
+//        public async Task<IActionResult> DeleteConfirmed(int id)
+//        {
+//            await _context.DeleteViewAsync(id);
+//            return RedirectToAction(nameof(Index));
+//        }
+
+//        public IActionResult Login()
+//        {
+//            return View();
+//        }
+
+//        [HttpPost]
+//        [ValidateAntiForgeryToken]
+//        public async Task<IActionResult> Login(LoginViewModel model)
+//        {
+//            if (ModelState.IsValid)
+//            {
+//                var user = await _context.GetUserCredentialsAsync(model.Email, model.Password, model.Matric_Number);
+//                if (user != null)
+//                {
+//                    var claims = new List<Claim>
+//                    {
+//                        new Claim(ClaimTypes.Name, user.UserNames),
+//                        new Claim(ClaimTypes.Email, user.Email),
+//                        new Claim("MatricNumber", user.Matric_Number)
+//                    };
+
+//                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+//                    var authProperties = new AuthenticationProperties { };
+
+//                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+//                    HttpContext.Session.SetString("UserId", user.Email.ToString());
+//                    return RedirectToAction("Index", "Home");
+//                }
+//                ModelState.AddModelError("", "Invalid matric number, password, or email.");
+//            }
+//            return View(model);
+//        }
+
+//        public IActionResult Register()
+//        {
+//            return View();
+//        }
+
+//        [HttpPost]
+//        [ValidateAntiForgeryToken]
+//        public async Task<IActionResult> Register(RegisterViewModel model)
+//        {
+//            if (ModelState.IsValid)
+//            {
+//                if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number))
+//                {
+//                    ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
+//                    return View(model);
+//                }
+//                var view = new View
+//                {
+//                    UserNames = model.UserNames,
+//                    Department = model.Department,
+//                    Email = model.Email,
+//                    Matric_Number = model.Matric_Number,
+//                    Password = model.Password,
+//                    CourseCode = model.CourseCode
+//                };
+//                if (await _context.RegisterCredentialsAsync(view))
+//                {
+//                    // Sign in the user after registration
+//                    var claims = new List<Claim>
+//                    {
+//                        new Claim(ClaimTypes.Name, view.UserNames),
+//                        new Claim(ClaimTypes.Email, view.Email),
+//                        new Claim("MatricNumber", view.Matric_Number)
+//                    };
+//                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+//                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+//                    return RedirectToAction("Capture", "Camera");
+//                }
+//                ModelState.AddModelError("", "Registration failed. Please try again.");
+//            }
+//            return View(model);
+//        }
+
+//        public async Task<IActionResult> Logout()
+//        {
+//            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+//            HttpContext.Session.Clear();
+//            return RedirectToAction("Login");
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using I_Attend.Data;
 using I_Attend.Models;
 using Microsoft.Extensions.Logging;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 namespace I_Attend.Controllers
 {
@@ -24,6 +266,7 @@ namespace I_Attend.Controllers
             return View(views);
         }
 
+        [Authorize(Policy = "AuthenticatedOnly")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -37,29 +280,87 @@ namespace I_Attend.Controllers
             }
             return View(view);
         }
-
+        [Authorize(Policy = "AuthenticatedOnly")]
         public IActionResult Create()
         {
             return View();
         }
 
+        [Authorize(Policy = "AuthenticatedOnly")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(View model)
+
+        public async Task<IActionResult> Create(Course_List model)
         {
-            if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number))
-            {
-                ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
-                return View(model);
-            }
             if (ModelState.IsValid)
             {
-                await _context.AddViewAsync(model);
-                return RedirectToAction(nameof(Index));
+                var user = (await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number);
+                if ( user == null)
+                {
+                    ModelState.AddModelError("Matric_Number", "Matric number does not exists.");
+                    return View(model);
+                }
+                // Create a new View object with all required properties
+                var view = new View
+                {
+                    //UserNames = model.UserNames,
+                    //Department = model.Department,
+                    //Email = model.Email,
+                    Matric_Number = model.Matric_Number,
+                    //Password = model.Password,
+                    Course_code = model.Course_code
+                    //ImageData = model.ImageData // Ensure this is provided or make it optional
+                };
+
+
+                // Add the view to the database
+                //await _context.AddViewAsync(view);
+                //return RedirectToAction(nameof(Index));
+
+
+                // Optionally sign in the user after creation
+                //var claims = new List<Claim>
+                //{
+                //    //new Claim(ClaimTypes.Name, view.UserNames),
+                //    //new Claim(ClaimTypes.Email, view.Email),
+                //    new Claim("Course_code", view.Course_code)
+                //};
+                //var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                //await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+
+                //return RedirectToAction("Capture", "Camera");
+
+                if (ModelState.IsValid)
+                {
+                   await _context.AddViewAsync(view);
+                   return RedirectToAction(nameof(Index));
+                }
+                ModelState.AddModelError("", "Registration failed. Please try again.");
             }
+
             return View(model);
         }
 
+            
+            //if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number))
+            //{
+            //    ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
+            //    return View(model);
+            //}
+            //var view = new View
+            //{
+            //    Course_code = model.Course_code
+            //};
+            //if (ModelState.IsValid)
+            //{
+            //    await _context.UpdateViewAsync(model);
+            //    return RedirectToAction(nameof(Index));
+            //}
+            //return View(model);
+            //View model = new View();
+            //model.CourseList.Add(new CourseListItem{Text= "Computer Graphics Animation",Value= "ECE5250"}
+
+        [Authorize(Policy = "AuthenticatedOnly")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -74,6 +375,7 @@ namespace I_Attend.Controllers
             return View(view);
         }
 
+        [Authorize(Policy = "AuthenticatedOnly")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, View view)
@@ -102,6 +404,7 @@ namespace I_Attend.Controllers
             return View(view);
         }
 
+        [Authorize(Policy = "AuthenticatedOnly")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -116,6 +419,7 @@ namespace I_Attend.Controllers
             return View(view);
         }
 
+        [Authorize(Policy = "AuthenticatedOnly")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -144,8 +448,26 @@ namespace I_Attend.Controllers
                 var user = await _context.GetUserCredentialsAsync(model.Email, model.Password, model.Matric_Number);
                 if (user != null)
                 {
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, user.UserNames),
+                        new Claim(ClaimTypes.Email, user.Email),
+                        new Claim("MatricNumber", user.Matric_Number)
+                    };
+
+                    var claimsIdentity = new ClaimsIdentity(
+                        claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var authProperties = new AuthenticationProperties
+                    {
+
+                    };
+
+                    await HttpContext.SignInAsync(
+                        CookieAuthenticationDefaults.AuthenticationScheme,
+                        new ClaimsPrincipal(claimsIdentity),
+                        authProperties);
                     // Implement session or cookie-based authentication here
-                    HttpContext.Session.SetString("UserId", user.Id.ToString());
+                    HttpContext.Session.SetString("UserId", user.Email.ToString());
                     return RedirectToAction("Index", "Home");
                 }
                 ModelState.AddModelError("", "Invalid matric number, password, or email.");
@@ -179,17 +501,25 @@ namespace I_Attend.Controllers
                 };
                 if (await _context.RegisterCredentialsAsync(view))
                 {
-                    return RedirectToAction("Login");
+                    return RedirectToAction("Capture", "Camera");
                 }
                 ModelState.AddModelError("", "Registration failed. Please try again.");
             }
             return View(model);
         }
 
-        public IActionResult Logout()
+        public async Task<IActionResult> Logout()
         {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             HttpContext.Session.Clear();
             return RedirectToAction("Login");
+
         }
+
+        ////public IActionResult Logout()
+        ////{
+        ////    HttpContext.Session.Clear();
+        ////    return RedirectToAction("Login");
+        //}
     }
 }

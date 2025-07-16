@@ -1,0 +1,83 @@
+﻿
+@*     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860 *@
+@* @model I_Attend.Models.View *@
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Your Profile</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            @if (ViewBag.ImageData != null)
+            {
+                <img src="data:image/jpeg;base64,@ViewBag.ImageData" alt="Profile Image" class="img-fluid" />
+            }
+            else
+            {
+                <p>@ViewBag.Message</p>
+            }
+        </div>
+        <div class="col-md-6">
+            <h3>Student Details</h3>
+            <p><strong>Name:</strong> @(Model.UserNames ?? "N/A")</p>
+            <p><strong>Matric Number:</strong> @(Model.Matric_Number ?? "N/A")</p>
+            <p><strong>Department:</strong> @(Model.Department ?? "N/A")</p>
+            <p><strong>Email:</strong> @(Model.Email ?? "N/A")</p>
+            <p><strong>Course_code:</strong> @(Model.Course_code ?? "N/A")</p> 
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <a href="@Url.Action("Capture", "Camera")" class="btn btn-primary">Update Photo</a>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Home</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+@* @{ *@
+@* } *@
+@* @{ *@
+@*     ViewBag.Title = "Profile"; *@
+@*     Layout = "~/Views/Shared/_Layout.cshtml"; *@
+@* } *@
+
+@* <h2>Your Profile</h2> *@
+
+@* <div class="container"> *@
+@*     <div class="row"> *@
+@*         <div class="col-md-6"> *@
+@*             @if (ViewBag.ImageData != null) *@
+@*             { *@
+@*                 <img src="data:image/jpeg;base64,@ViewBag.ImageData" alt="Profile Image" class="img-fluid" /> *@
+@*             } *@
+@*             else *@
+@*             { *@
+@*                 <p>@ViewBag.Message</p> *@
+@*             } *@
+@*         </div> *@
+@*         <div class="col-md-6"> *@
+@*             <h3>Student Details</h3> *@
+@*             <p><strong>Name:</strong> @Model.UserNames</p> *@
+@*             <p><strong>Matric Number:</strong> @Model.Matric_Number</p> *@
+@*             <p><strong>Department:</strong> @Model.Department</p> *@
+@*             <p><strong>Email:</strong> @Model.Email</p> *@
+@*         </div> *@
+@*     </div> *@
+@*     <div class="row mt-3"> *@
+@*         <div class="col-md-12"> *@
+@*             <a href="@Url.Action("Capture", "Camera")" class="btn btn-primary">Update Photo</a> *@
+@*             <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Home</a> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@

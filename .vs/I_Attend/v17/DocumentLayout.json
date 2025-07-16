@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Choox\\source\\repos\\I_Attend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\attendance_system_updated.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:attendance_system_updated.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\views\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\views\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\controllers\\viewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:controllers\\viewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\data\\i_attenddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:data\\i_attenddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\migrations\\20250520181030_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:migrations\\20250520181030_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\models\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:models\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\controllers\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:controllers\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,101 +42,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T20:59:41.44Z"
+              "DocumentIndex": 0,
+              "Title": "attendance_system_updated.py",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\attendance_system_updated.py",
+              "RelativeDocumentMoniker": "attendance_system_updated.py",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\attendance_system_updated.py",
+              "RelativeToolTip": "attendance_system_updated.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-07-16T09:04:37.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T20:58:32.856Z"
+              "DocumentIndex": 4,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Models\\View.cs",
+              "RelativeDocumentMoniker": "Models\\View.cs",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Models\\View.cs",
+              "RelativeToolTip": "Models\\View.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAwGkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T22:44:21.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Views\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Create.cshtml",
+              "RelativeToolTip": "Views\\Views\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T23:31:51.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "I_AttendDAO.cs",
               "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Data\\I_AttendDAO.cs",
               "RelativeDocumentMoniker": "Data\\I_AttendDAO.cs",
               "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Data\\I_AttendDAO.cs",
               "RelativeToolTip": "Data\\I_AttendDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALoBAAAAAAAAAAAYwL4BAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T01:00:15.87Z"
+              "WhenOpened": "2025-06-16T13:07:49.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T19:23:57.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\CameraController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CameraController.cs",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\CameraController.cs",
+              "RelativeToolTip": "Controllers\\CameraController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T01:05:48.091Z"
+              "WhenOpened": "2025-06-09T12:42:52.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ViewsController.cs",
               "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\ViewsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ViewsController.cs",
               "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\ViewsController.cs",
               "RelativeToolTip": "Controllers\\ViewsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAkwGABAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T19:16:58.319Z",
+              "WhenOpened": "2025-06-11T20:38:03.26Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Views\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Login.cshtml",
-              "RelativeToolTip": "Views\\Views\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T07:25:21.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250520181030_initialsetup.cs",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Migrations\\20250520181030_initialsetup.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250520181030_initialsetup.cs",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Migrations\\20250520181030_initialsetup.cs",
-              "RelativeToolTip": "Migrations\\20250520181030_initialsetup.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:10:44.216Z"
             }
           ]
         }
