@@ -134,13 +134,6 @@ C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\scopedcss\projectbundle\I_
 C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets\msbuild.I_Attend.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets\msbuild.I_Attend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets\msbuild.build.I_Attend.props
-C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.I_Attend.props
-C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.I_Attend.props
-C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\I_Attend.csproj.Up2Date
 C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\I_Attend.dll
 C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\refint\I_Attend.dll
@@ -325,3 +318,10 @@ C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\I_Attend.sourcelink.json
 C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Choox\source\repos\I_Attend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Choox\source\repos\I_Attend\bin\Debug\net8.0\appsettings.production.json
+C:\Users\choox\source\repos\I_Attend\bin\Debug\net8.0\SixLabors.ImageSharp.dll

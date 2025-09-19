@@ -1,5 +1,4 @@
-﻿
-@model I_Attend.Models.LoginViewModel
+﻿@model I_Attend.Models.LoginViewModel
 @{
     ViewData["Title"] = "Login";
 }
@@ -46,7 +45,8 @@
                     </div>
                 }
                 <div>
-                    @Html.ActionLink("Register", "Register") if you don't have an account.
+                    @Html.ActionLink("Register", "Register") if you don't have an account.</br>
+                    @Html.ActionLink("AdminLogin", "AdminLogin") Login as Admin.
                 </div>
             </form>
         </section>
@@ -72,7 +72,5 @@
 </div>
 
 @section Scripts {
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <partial name="_ValidationScriptsPartial" />
 }

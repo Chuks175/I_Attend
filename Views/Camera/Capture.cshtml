@@ -163,163 +163,163 @@
 
 
 
-@* @{ *@
-@*     ViewBag.Title = "Capture"; *@
-@*     Layout = "~/Views/Shared/_Layout.cshtml"; *@
-@* } *@
+@* @{ 
+     ViewBag.Title = "Capture"; 
+     Layout = "~/Views/Shared/_Layout.cshtml"; 
+ } 
 
-@* <h2>Capture or Upload Your Photo</h2> *@
+ <h2>Capture or Upload Your Photo</h2> 
 
-@* <div class="container"> *@
-@*     <div class="row"> *@
-@*         <div class="col-md-6"> *@
-@*             <h3>Camera or File Upload</h3> *@
-@*             <div class="form-group"> *@
-@*                 <label for="matricNumber">Matric Number</label> *@
-@*                 <input type="text" id="matricNumber" class="form-control" required /> *@
-@*             </div> *@
-@*             <div class="form-group"> *@
-@*                 <label>Use Camera</label> *@
-@*                 <video id="video" width="100%" autoplay style="display: none;"></video> *@
-@*                 <button id="capture" class="btn btn-primary mt-2" style="display: none;">Capture Photo</button> *@
-@*             </div> *@
-@*             <div class="form-group"> *@
-@*                 <label>Or Upload Image</label> *@
-@*                 <input type="file" id="fileInput" class="form-control" accept="image/*" /> *@
-@*                 <button id="upload" class="btn btn-primary mt-2">Upload Photo</button> *@
-@*             </div> *@
-@*         </div> *@
-@*         <div class="col-md-6"> *@
-@*             <h3>Preview</h3> *@
-@*             <canvas id="canvas" style="display:none;"></canvas> *@
-@*             <img id="photo" src="" alt="Your captured or uploaded image will appear here..." class="img-fluid" /> *@
-@*         </div> *@
-@*     </div> *@
-@*     <div class="row mt-3"> *@
-@*         <div class="col-md-12"> *@
-@*             <p>  *@
-@*                 Finished? <a asp-controller="Views" asp-action="Login">Go to Login</a>  *@
-@*             </p>   *@
-@*         </div> *@
-@*     </div> *@
-@* </div> *@
+ <div class="container"> 
+     <div class="row"> 
+         <div class="col-md-6"> 
+             <h3>Camera or File Upload</h3> 
+             <div class="form-group"> 
+                 <label for="matricNumber">Matric Number</label> 
+                 <input type="text" id="matricNumber" class="form-control" required /> 
+             </div> 
+             <div class="form-group"> 
+                 <label>Use Camera</label> 
+                 <video id="video" width="100%" autoplay style="display: none;"></video> 
+                 <button id="capture" class="btn btn-primary mt-2" style="display: none;">Capture Photo</button> 
+             </div> 
+             <div class="form-group"> 
+                 <label>Or Upload Image</label> 
+                 <input type="file" id="fileInput" class="form-control" accept="image/*" /> 
+                 <button id="upload" class="btn btn-primary mt-2">Upload Photo</button> 
+             </div> 
+         </div> 
+         <div class="col-md-6"> 
+             <h3>Preview</h3> 
+             <canvas id="canvas" style="display:none;"></canvas> 
+             <img id="photo" src="" alt="Your captured or uploaded image will appear here..." class="img-fluid" /> 
+         </div> 
+     </div> 
+     <div class="row mt-3"> 
+         <div class="col-md-12"> 
+             <p>  
+                 Finished? <a asp-controller="Views" asp-action="Login">Go to Login</a>  
+             </p>   
+         </div> 
+     </div> 
+ </div> 
 
-@* @section Scripts { *@
-@*     <script> *@
-@*         const video = document.getElementById('video'); *@
-@*         const canvas = document.getElementById('canvas'); *@
-@*         const photo = document.getElementById('photo'); *@
-@*         const captureButton = document.getElementById('capture'); *@
-@*         const uploadButton = document.getElementById('upload'); *@
-@*         const fileInput = document.getElementById('fileInput'); *@
-@*         const matricNumberInput = document.getElementById('matricNumber'); *@
+ @section Scripts { 
+     <script> 
+         const video = document.getElementById('video'); 
+         const canvas = document.getElementById('canvas'); 
+         const photo = document.getElementById('photo'); 
+         const captureButton = document.getElementById('capture'); 
+         const uploadButton = document.getElementById('upload'); 
+         const fileInput = document.getElementById('fileInput'); 
+         const matricNumberInput = document.getElementById('matricNumber'); 
 
-@*         let stream = null; *@
+         let stream = null; 
 
-@*         // Initialize webcam *@
-@*         function startWebcam() { *@
-@*             navigator.mediaDevices.getUserMedia({ video: true }) *@
-@*                 .then(s => { *@
-@*                     stream = s; *@
-@*                     video.srcObject = stream; *@
-@*                     video.style.display = 'block'; *@
-@*                     captureButton.style.display = 'inline-block'; *@
-@*                 }) *@
-@*                 .catch(err => { *@
-@*                     console.error("Error accessing webcam: ", err); *@
-@*                     alert("Could not access webcam. Please use the file upload option."); *@
-@*                     video.style.display = 'none'; *@
-@*                     captureButton.style.display = 'none'; *@
-@*                 }); *@
-@*         } *@
+         // Initialize webcam 
+         function startWebcam() { 
+             navigator.mediaDevices.getUserMedia({ video: true }) 
+                 .then(s => { 
+                     stream = s; 
+                     video.srcObject = stream; 
+                     video.style.display = 'block'; 
+                     captureButton.style.display = 'inline-block'; 
+                 }) 
+                 .catch(err => { 
+                     console.error("Error accessing webcam: ", err); 
+                     alert("Could not access webcam. Please use the file upload option."); 
+                     video.style.display = 'none'; 
+                     captureButton.style.display = 'none'; 
+                 }); 
+         } 
 
-@*         // Stop webcam *@
-@*         function stopWebcam() { *@
-@*             if (stream) { *@
-@*                 stream.getTracks().forEach(track => track.stop()); *@
-@*                 video.srcObject = null; *@
-@*                 stream = null; *@
-@*             } *@
-@*             video.style.display = 'none'; *@
-@*             captureButton.style.display = 'none'; *@
-@*         } *@
+         // Stop webcam 
+         function stopWebcam() { 
+             if (stream) { 
+                 stream.getTracks().forEach(track => track.stop()); 
+                 video.srcObject = null; 
+                 stream = null; 
+             } 
+             video.style.display = 'none'; 
+             captureButton.style.display = 'none'; 
+         } 
 
-@*         // Start webcam on page load *@
-@*         startWebcam(); *@
+         // Start webcam on page load 
+         startWebcam(); 
 
-@*         // Handle file input change for preview *@
-@*         fileInput.addEventListener('change', () => { *@
-@*             const file = fileInput.files[0]; *@
-@*             if (file) { *@
-@*                 const reader = new FileReader(); *@
-@*                 reader.onload = e => { *@
-@*                     photo.src = e.target.result; *@
-@*                     stopWebcam(); // Stop webcam when file is selected *@
-@*                 }; *@
-@*                 reader.readAsDataURL(file); *@
-@*             } *@
-@*         }); *@
+         // Handle file input change for preview 
+         fileInput.addEventListener('change', () => { 
+             const file = fileInput.files[0]; 
+             if (file) { 
+                 const reader = new FileReader(); 
+                 reader.onload = e => { 
+                     photo.src = e.target.result; 
+                     stopWebcam(); // Stop webcam when file is selected 
+                 }; 
+                 reader.readAsDataURL(file); 
+             } 
+         }); 
 
-@*         // Handle capture button click *@
-@*         captureButton.addEventListener('click', () => { *@
-@*             const matricNumber = matricNumberInput.value.trim(); *@
-@*             if (!matricNumber) { *@
-@*                 alert("Please enter your matric number"); *@
-@*                 return; *@
-@*             } *@
+         // Handle capture button click 
+         captureButton.addEventListener('click', () => { 
+             const matricNumber = matricNumberInput.value.trim(); 
+             if (!matricNumber) { 
+                 alert("Please enter your matric number"); 
+                 return; 
+             } 
 
-@*             canvas.width = video.videoWidth; *@
-@*             canvas.height = video.videoHeight; *@
-@*             canvas.getContext('2d').drawImage(video, 0, 0); *@
-@*             photo.src = canvas.toDataURL('image/jpeg'); *@
+             canvas.width = video.videoWidth; 
+             canvas.height = video.videoHeight; 
+             canvas.getContext('2d').drawImage(video, 0, 0); 
+             photo.src = canvas.toDataURL('image/jpeg'); 
 
-@*             sendImage(canvas.toBlob(blob => { *@
-@*                 uploadImage(blob, matricNumber); *@
-@*             }, 'image/jpeg')); *@
-@*         }); *@
+             sendImage(canvas.toBlob(blob => { 
+                 uploadImage(blob, matricNumber); 
+             }, 'image/jpeg')); 
+         }); 
 
-@*         // Handle upload button click *@
-@*         uploadButton.addEventListener('click', () => { *@
-@*             const matricNumber = matricNumberInput.value.trim(); *@
-@*             const file = fileInput.files[0]; *@
-@*             if (!matricNumber) { *@
-@*                 alert("Please enter your matric number"); *@
-@*                 return; *@
-@*             } *@
-@*             if (!file) { *@
-@*                 alert("Please select an image file to upload"); *@
-@*                 return; *@
-@*             } *@
-@*             uploadImage(file, matricNumber); *@
-@*         }); *@
+         // Handle upload button click 
+         uploadButton.addEventListener('click', () => { 
+             const matricNumber = matricNumberInput.value.trim(); 
+             const file = fileInput.files[0]; 
+             if (!matricNumber) { 
+                 alert("Please enter your matric number"); 
+                 return; 
+             } 
+             if (!file) { 
+                 alert("Please select an image file to upload"); 
+                 return; 
+             } 
+             uploadImage(file, matricNumber); 
+         }); 
 
-@*         // Function to send image to server *@
-@*         function uploadImage(blob, matricNumber) { *@
-@*             const formData = new FormData(); *@
-@*             formData.append('file', blob, 'capture.jpg'); *@
-@*             formData.append('matricNumber', matricNumber); *@
+         // Function to send image to server 
+         function uploadImage(blob, matricNumber) { 
+             const formData = new FormData(); 
+             formData.append('file', blob, 'capture.jpg'); 
+             formData.append('matricNumber', matricNumber); 
 
-@*             fetch('@Url.Action("Capture", "Camera")', { *@
-@*                 method: 'POST', *@
-@*                 body: formData *@
-@*             }) *@
-@*                 .then(response => response.json()) *@
-@*                 .then(data => { *@
-@*                     if (data.success) { *@
-@*                         alert(data.message); *@
-@*                         window.location.href = '@Url.Action("Profile", "Camera")'; *@
-@*                     } else { *@
-@*                         alert(data.message); *@
-@*                     } *@
-@*                 }) *@
-@*                 .catch(err => { *@
-@*                     console.error("Error uploading image: ", err); *@
-@*                     alert("Error uploading image"); *@
-@*                 }); *@
-@*         } *@
-@*     </script> *@
-@* } *@
-
+             fetch('@Url.Action("Capture", "Camera")', { 
+                 method: 'POST', 
+                 body: formData 
+             }) 
+                 .then(response => response.json()) 
+                 .then(data => { 
+                     if (data.success) { 
+                         alert(data.message); 
+                         window.location.href = '@Url.Action("Profile", "Camera")'; 
+                     } else { 
+                         alert(data.message); 
+                     } 
+                 }) 
+                 .catch(err => { 
+                     console.error("Error uploading image: ", err); 
+                     alert("Error uploading image"); 
+                 }); 
+         } 
+     </script> 
+ }
+ *@
 
 
 

@@ -1,0 +1,93 @@
+﻿@model I_Attend.Models.AdminViewModel
+@* @{
+    ViewData["Title"] = "AdminLogin";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form id="account" method="post">
+                <h2>Log in As Admin.</h2>
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.User, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.User, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.User, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                       
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <button id="login-submit" type="submit" class="w-100 btn btn-dark btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+} *@
+
+
+
+
+
+
+ @{ 
+    ViewData["Title"] = "AdminLogin";
+ } 
+
+<h1>@ViewData["Title"]</h1> 
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form id="account" method="post">
+                <h2>Log in As Admin.</h2>
+                <hr /> 
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                <div class="form-floating mb-3">
+                    <input asp-for="User" class="form-control" autocomplete="new-User" aria-required="true" placeholder="users name" />
+                    <label asp-for="User">users name</label>
+                    <span asp-validation-for="User" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                    <label asp-for="Password">Password</label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                @* <div class="checkbox mb-3"> 
+                     <label asp-for="RememberMe" class="form-label"> 
+                         <input class="form-check-input" asp-for="Input.RememberMe" /> 
+                         @Html.DisplayNameFor(m => m.Input.RememberMe) 
+                     </label> 
+                 </div>  *@
+                 <div> 
+                     <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button> 
+                 </div> 
+            </form>
+        </section>    
+    </div>
+</div>
+
+@section Scripts { 
+     <partial name="_ValidationScriptsPartial" /> 
+ } 

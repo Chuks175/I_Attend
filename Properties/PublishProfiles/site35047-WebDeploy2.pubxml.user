@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsQa6f7Z3d0uvBxc6BXquQAAAAAACAAAAAAAQZgAAAAEAACAAAAAXhZnO5lekcVgBhokMtIAmd+HT3ScH689ZTtkM8C5yUAAAAAAOgAAAAAIAACAAAAA2f7dEW1NqEXbQIW+CNdQxovj2e5HJ2oHvyk3svkRc1CAAAAC79BsY9LZDcdvV7XLYjbG0UChMAdn70CNFVhQu4Z4kBUAAAADZg700zxOdFNKxcDNEi0yeoqMR/sqZNvPdTezEBP9vrLAVhCGPHvs33ggmRI/K4Q10hr1ZMGsaLNulZCvGzM7i</EncryptedPassword>
+    <History>True|2025-08-29T16:31:52.4351031Z||;False|2025-08-29T17:23:02.8334286+01:00||;True|2025-08-29T16:26:31.7769241+01:00||;False|2025-08-29T16:08:04.3546734+01:00||;True|2025-08-29T15:05:38.4616393+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=db26011.databaseasp.net%3bDatabase=db26011%3bUid=db26011%3bPwd=5d=N-Xc9e3L#%3bPort=3306%3bSslMode=Preferred%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

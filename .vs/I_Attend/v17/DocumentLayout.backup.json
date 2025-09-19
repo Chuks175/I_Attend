@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Choox\\source\\repos\\I_Attend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\views\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\views\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\controllers\\viewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +19,16 @@
       "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:models\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\controllers\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:controllers\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\views\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\views\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\views\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\views\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|c:\\users\\choox\\source\\repos\\i_attend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D784B1B-25DD-4799-80F0-C64813774256}|I_Attend.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,21 +52,60 @@
               "RelativeDocumentMoniker": "Models\\View.cs",
               "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Models\\View.cs",
               "RelativeToolTip": "Models\\View.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAwGkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:44:21.767Z"
+              "WhenOpened": "2025-09-16T21:35:06.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Views\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Create.cshtml",
-              "RelativeToolTip": "Views\\Views\\Create.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAD0AAAAhAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ViewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\ViewsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ViewsController.cs",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\ViewsController.cs",
+              "RelativeToolTip": "Controllers\\ViewsController.cs",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAAAJIBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:43:19.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T23:31:51.378Z",
+              "WhenOpened": "2025-09-14T18:27:14.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Views\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Views\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-14T15:13:20.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\CreateCourse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Views\\CreateCourse.cshtml",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Views\\Views\\CreateCourse.cshtml",
+              "RelativeToolTip": "Views\\Views\\CreateCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-14T17:21:07.519Z",
               "EditorCaption": ""
             },
             {
@@ -69,33 +116,22 @@
               "RelativeDocumentMoniker": "Data\\I_AttendDAO.cs",
               "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Data\\I_AttendDAO.cs",
               "RelativeToolTip": "Data\\I_AttendDAO.cs",
-              "ViewState": "AgIAALoBAAAAAAAAAAAYwL4BAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALkBAAAAAAAAAAAAAJEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:07:49.261Z"
+              "WhenOpened": "2025-06-16T13:07:49.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\CameraController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CameraController.cs",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\CameraController.cs",
-              "RelativeToolTip": "Controllers\\CameraController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T12:42:52.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewsController.cs",
-              "DocumentMoniker": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\ViewsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ViewsController.cs",
-              "ToolTip": "C:\\Users\\Choox\\source\\repos\\I_Attend\\Controllers\\ViewsController.cs",
-              "RelativeToolTip": "Controllers\\ViewsController.cs",
-              "ViewState": "AgIAAFUBAAAAAAAAAAAkwGABAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T20:38:03.26Z",
+              "WhenOpened": "2025-08-28T16:30:24.809Z",
               "EditorCaption": ""
             }
           ]

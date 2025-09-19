@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsQa6f7Z3d0uvBxc6BXquQAAAAAACAAAAAAAQZgAAAAEAACAAAACNa10I0+HHS9V7CmBUT6hMAY9zz/y0n7vmcJyqXxwSNgAAAAAOgAAAAAIAACAAAAA2jFD6HofbEQJ5yOykGcwUqQtPjq3wRrpwgxQIFOIE0yAAAADcpfYkAtjgDmFINkypKOGecf5Q14G2MhwmggV5ZqtL2EAAAACmsXqlz4011GUiRnsO+MPt5qQLMxDw/gobJafTwClmArUskk0NxFP1p7oC5uYXO+NtCE7SCWrEeA/McDTBNB8o</EncryptedPassword>
+    <History>True|2025-08-25T01:37:59.3124490Z||;False|2025-08-25T02:20:57.6097815+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=localhost%3b port=3306%3b Database=students_credentials%3b user= root%3b password={_Choox%40MySQL#Db_Server%2421}%3b Persist security Info= true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

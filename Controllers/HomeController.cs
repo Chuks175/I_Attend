@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using I_Attend.Models;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 
 namespace I_Attend.Controllers;
 
@@ -23,10 +25,18 @@ public class HomeController : Controller
         return View();
     }
 
-    //public IActionResult Capture()
-    //{
-    //    return View();
-    //}
+    [Authorize(Roles = "Admin")]
+    public IActionResult Admin()
+    {
+        return View();
+    }
+
+    [Authorize(Roles = "User")]
+    public IActionResult User() 
+    {
+        return View();
+    }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

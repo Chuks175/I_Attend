@@ -6,9 +6,9 @@
 
 <h1>Index</h1>
 
-<p>
+@* <p>
     <a asp-action="Create">Create New</a>
-</p>
+</p> *@
 <table class="table">
     <thead>
         <tr>
@@ -17,6 +17,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course_code)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Matric_Number)
@@ -37,17 +40,20 @@
                     @Html.DisplayFor(modelItem => item.UserNames)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Department)
-            </td>
-            <td>
                     @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
+                    @Html.DisplayFor(modelItem => item.Course_code)
+            </td>  
+            <td>
                     @Html.DisplayFor(modelItem => item.Matric_Number)
             </td>
-                <td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Department)
+            </td>
+            <td>
                     @Html.DisplayFor(modelItem => item.Password)
-                </td>
+            </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

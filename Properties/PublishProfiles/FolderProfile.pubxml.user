@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-08-25T14:35:40.8796279Z||;False|2025-08-25T15:18:25.0094989+01:00||;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>F:\I_Attend</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=localhost%3b port=3306%3b Database=students_credentials%3b user= root%3b password={_Choox%40MySQL#Db_Server%2421}%3b Persist security Info= true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

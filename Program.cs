@@ -1,8 +1,4 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using I_Attend.Data;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,22 +16,29 @@ builder.Services.AddSession(options =>
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
+        options.LoginPath = "/Views/AdminLogin";
         options.LoginPath = "/Views/Login";
         options.LogoutPath = "/Views/Logout";
+        //options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        //options.SlidingExpiration = true;
     });
 
-builder.Services.AddAuthorization(options =>
-{
-    // Policy for authenticated users only
-    options.AddPolicy("AuthenticatedOnly", policy =>
-        policy.RequireAuthenticatedUser());
+//builder.Services.AddAuthorization(options =>
+//{
+//    // Policy for authenticated users only
+//    options.AddPolicy("AuthenticatedOnly", policy =>
+//        policy.RequireAuthenticatedUser());
 
-});
+//});
 
-builder.Services.AddScoped<I_AttendDAO >(provider =>
+builder.Services.AddScoped<I_AttendDAO>(provider =>
     new I_AttendDAO(builder.Configuration.GetConnectionString("DefaultConnection"),
         provider.GetService<ILogger<I_AttendDAO>>()));
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddEventSourceLogger();
 
 
 var app = builder.Build();

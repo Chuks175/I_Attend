@@ -290,6 +290,8 @@ namespace I_Attend.Data
         Task AddViewAsync(View view);
         Task UpdateViewAsync(View view);
         Task DeleteViewAsync(int id);
+        Task<bool> SaveChangesAsync(View view);
+        Task<View>GetByIdAsync(int id);
         Task<View> GetUserCredentialsAsync(string email, string password, string matricNumber);
         Task<bool> RegisterCredentialsAsync(View view);
         Task<bool> ViewExistsAsync(int id);
@@ -298,6 +300,8 @@ namespace I_Attend.Data
 
     public class I_AttendDAO : IAttendDAO
     {
+        //MySql.Data.MySqlClient.MySqlConnection connection;
+        //readonly String connectionString = "Server=db26011.databaseasp.net; Uid=db26011; Pwd=5d=N-Xc9e3L#; Database=db26011;";
         private readonly string _connectionString;
         private readonly ILogger<I_AttendDAO> _logger;
 
@@ -377,7 +381,7 @@ namespace I_Attend.Data
                 {
                     await connection.OpenAsync();
                     using (var command = new MySqlCommand(
-                        "UPDATE details SET Course_code = @Course_code WHERE Matric_Number = @Matric_Number", connection))
+                        "UPDATE details SET Course_code = @Course_code, Matric_Number = @Matric_Number WHERE Matric_Number = @Matric_Number", connection))
                     {
                         //command.Parameters.AddWithValue("@UserNames", view.UserNames);
                         //command.Parameters.AddWithValue("@Department", view.Department);
@@ -443,6 +447,85 @@ namespace I_Attend.Data
             {
                 _logger.LogError(ex, "Error deleting view with ID {Id}", id);
                 throw;
+            }
+        }
+
+        public async Task<bool> SaveChangesAsync(View view) 
+        {
+            try
+            {
+                View initialview = await GetByIdAsync(view.Id);  
+                if (initialview == null)
+                {
+                    return false; 
+                }
+
+                string passwordParam = initialview.Password;  
+                if (!string.IsNullOrEmpty(view.Password) && view.Password != initialview.Password)  
+                {
+                    passwordParam = BCrypt.Net.BCrypt.HashPassword(view.Password);
+                }
+
+                using (var connection = new MySqlConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+                    using (var command = new MySqlCommand(
+                        "UPDATE details SET UserNames = @UserNames, Department = @Department, Course_code = @Course_code, Email = @Email, Matric_Number = @Matric_Number, Password = @Password " +
+                        "WHERE Id = @Id", connection))
+                    {
+                        command.Parameters.AddWithValue("@Id", view.Id);
+                        command.Parameters.AddWithValue("@UserNames", view.UserNames ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@Department", view.Department ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@Course_code", (object)view.Course_code ?? DBNull.Value);
+                        command.Parameters.AddWithValue("@Email", view.Email ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@Matric_Number", view.Matric_Number ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@Password", passwordParam);
+                        return await command.ExecuteNonQueryAsync() > 0;
+                    }
+                }
+            }
+            catch (MySqlException ex) 
+            {
+                _logger.LogError(ex, "Error Saving changes to ID {Id}", view.Id);
+                throw;
+            }
+        }
+
+        public async Task<View> GetByIdAsync(int id)
+        {
+            try 
+            {
+                using (var connection = new MySqlConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+                    using (var command = new MySqlCommand(
+                        "SELECT Id, UserNames, Department, Course_code, Email, Matric_Number, Password FROM details WHERE Id = @Id", connection))
+                    {
+                        command.Parameters.AddWithValue("@Id", id);
+                        using (var reader = await command.ExecuteReaderAsync())
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                return new View 
+                                {
+                                    Id = reader.GetInt32("Id"),
+                                    UserNames = reader.IsDBNull("UserNames") ? null : reader.GetString("UserNames"),
+                                    Department = reader.IsDBNull("Department") ? null : reader.GetString("Department"),
+                                    Course_code = reader.IsDBNull("Course_code") ? null : reader.GetString("Course_code"),
+                                    Email = reader.IsDBNull("Email") ? null : reader.GetString("Email"),
+                                    Matric_Number = reader.IsDBNull("Matric_Number") ? null : reader.GetString("Matric_Number"),
+                                    Password = reader.IsDBNull("Password") ? null : reader.GetString("Password") 
+                                };
+                            }
+                        }
+                    }
+                    return null;
+                }
+            }
+            catch (MySqlException ex)
+            {
+                _logger.LogError(ex, "Error fetching content of Id from database");
+                throw; 
             }
         }
 

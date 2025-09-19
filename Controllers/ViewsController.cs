@@ -266,7 +266,7 @@ namespace I_Attend.Controllers
             return View(views);
         }
 
-        [Authorize(Policy = "AuthenticatedOnly")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -280,17 +280,24 @@ namespace I_Attend.Controllers
             }
             return View(view);
         }
-        [Authorize(Policy = "AuthenticatedOnly")]
+
+        [Authorize(Roles = "User")]
+        public IActionResult CreateCourse()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "User")]
         public IActionResult Create()
         {
             return View();
         }
 
-        [Authorize(Policy = "AuthenticatedOnly")]
+        [Authorize(Roles = "User")]
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public async Task<IActionResult> Create(Course_List model)
+        public async Task<IActionResult> Create([Bind("Matric_Number, Course_code")] Course_List model)
         {
             if (ModelState.IsValid)
             {
@@ -333,7 +340,7 @@ namespace I_Attend.Controllers
                 if (ModelState.IsValid)
                 {
                    await _context.AddViewAsync(view);
-                   return RedirectToAction(nameof(Index));
+                   return RedirectToAction(nameof(CreateCourse));
                 }
                 ModelState.AddModelError("", "Registration failed. Please try again.");
             }
@@ -360,7 +367,7 @@ namespace I_Attend.Controllers
             //View model = new View();
             //model.CourseList.Add(new CourseListItem{Text= "Computer Graphics Animation",Value= "ECE5250"}
 
-        [Authorize(Policy = "AuthenticatedOnly")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -375,8 +382,8 @@ namespace I_Attend.Controllers
             return View(view);
         }
 
-        [Authorize(Policy = "AuthenticatedOnly")]
-        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, View view)
         {
@@ -388,23 +395,28 @@ namespace I_Attend.Controllers
             {
                 try
                 {
+
+                    //var views = _context.UpdateView();
                     await _context.UpdateViewAsync(view);
-                    return RedirectToAction(nameof(Index));
+                    //var existingViews = views.FirstOrDefault(v => v.Id == id);
+
                 }
+
                 catch (Exception ex)
                 {
                     _logger.LogError(ex, "Error updating view with ID {Id}", view.Id);
-                    if (!await _context.ViewExistsAsync(view.Id))
+                    ModelState.AddModelError("", "An error occurred while saving. Please try again.");
+
+                    if (!await _context.ViewExistsAsync(id))
                     {
                         return NotFound();
                     }
-                    throw;
                 }
             }
             return View(view);
         }
 
-        [Authorize(Policy = "AuthenticatedOnly")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -419,20 +431,21 @@ namespace I_Attend.Controllers
             return View(view);
         }
 
-        [Authorize(Policy = "AuthenticatedOnly")]
+        [Authorize(Roles =  "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _context.DeleteViewAsync(id);
+            //await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        //public async Task<IActionResult> ViewExists(int id)
-        //{
-        //   var views = (await _context.GetViewsAsync()).FirstOrDefault(e=> e.Id == id);
-        //    return View(views);   //Any(e => e.Id == id);
-        //}
+        public async Task<IActionResult> ViewExists(int id)
+        {
+           var views = (await _context.GetViewsAsync()).FirstOrDefault(e=> e.Id == id);
+            return View(views);   //Any(e => e.Id == id);
+        }
 
         public IActionResult Login()
         {
@@ -452,7 +465,8 @@ namespace I_Attend.Controllers
                     {
                         new Claim(ClaimTypes.Name, user.UserNames),
                         new Claim(ClaimTypes.Email, user.Email),
-                        new Claim("MatricNumber", user.Matric_Number)
+                        new Claim("MatricNumber", user.Matric_Number),
+                        new Claim(ClaimTypes.Role, "User")
                     };
 
                     var claimsIdentity = new ClaimsIdentity(
@@ -468,18 +482,20 @@ namespace I_Attend.Controllers
                         authProperties);
                     // Implement session or cookie-based authentication here
                     HttpContext.Session.SetString("UserId", user.Email.ToString());
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("User", "Home");
                 }
                 ModelState.AddModelError("", "Invalid matric number, password, or email.");
             }
             return View(model);
         }
 
+        [Authorize(Roles = "User")]
         public IActionResult Register()
         {
             return View();
         }
 
+        [Authorize(Roles = "User")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)
@@ -506,7 +522,52 @@ namespace I_Attend.Controllers
                 ModelState.AddModelError("", "Registration failed. Please try again.");
             }
             return View(model);
+            //return View("~/Views/Camera/Profile.cshtml", view);
         }
+
+        public IActionResult AdminLogin() 
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AdminLogin(AdminViewModel model)
+        {
+            if (ModelState.IsValid) 
+            {
+                if (model.User == "Admin1" && model.Password == "123Pa$$word")
+                {
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, "Admin1"),
+                        new Claim("Password", model.Password),
+                        new Claim(ClaimTypes.Role, "Admin")
+
+                    };
+
+                    var claimsIdentity = new ClaimsIdentity(
+                            claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var authProperties = new AuthenticationProperties
+                    {
+
+                    };
+
+                    await HttpContext.SignInAsync(
+                            CookieAuthenticationDefaults.AuthenticationScheme,
+                            new ClaimsPrincipal(claimsIdentity),
+                            authProperties);
+                    // Implement session or cookie-based authentication here
+                    HttpContext.Session.SetString("UserId", model.User.ToString());
+                    return RedirectToAction("Admin", "Home");
+
+                }
+                ModelState.AddModelError("", "Invalid User or password.");
+
+            }
+            return View(model);
+        }
+        
 
         public async Task<IActionResult> Logout()
         {

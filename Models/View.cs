@@ -98,6 +98,7 @@ namespace I_Attend.Models
         [Required]
         public string Department { get; set; }
         [Required]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
         [Required]
         public string Matric_Number { get; set; }
@@ -114,11 +115,11 @@ namespace I_Attend.Models
         public string Course_code { get; set; } 
 
 
-        public View()
-        {
-            //_view = view;
-            //CourseList = newList<SelectListItem>();
-        }
+        //public View()
+        //{
+        //    //_view = view;
+        //    //CourseList = newList<SelectListItem>();
+        //}
 
 
     }
@@ -131,6 +132,15 @@ namespace I_Attend.Models
 
         [Required]
         public string Matric_Number { get; set; }
+    }
+    public class AdminViewModel
+    {
+        [Required]
+        public string User { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
     }
     public class LoginViewModel
     {
