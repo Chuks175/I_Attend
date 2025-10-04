@@ -79,12 +79,10 @@
 
 
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.Data;
 
 namespace I_Attend.Models
 {
@@ -112,7 +110,7 @@ namespace I_Attend.Models
 
         [Required]
         [DisplayName("Course_code")]
-        public string Course_code { get; set; } 
+        public string Course_code { get; set; }
 
 
         //public View()
@@ -187,6 +185,14 @@ namespace I_Attend.Models
         [Compare("Password", ErrorMessage = "Passwords do not match.")]
         public string ConfirmPassword { get; set; }
 
+    }
+
+    public class ReportViewModel
+    {
+        public string SenderEmail { get; set; }
+        public string SenderPassword { get; set; }
+        public string RecipientEmail { get; set; }
+        public DataTable ReportData { get; set; }
     }
 }
 

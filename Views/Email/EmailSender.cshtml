@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model I_Attend.Models.ReportViewModel
+
+@{
+    ViewBag.Title = "Database Report";
+}
+
+<h2>Database Report</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<!-- Display Data -->
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            @foreach (System.Data.DataColumn col in Model.ReportData.Columns)
+            {
+                <th>@col.ColumnName</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (System.Data.DataRow row in Model.ReportData.Rows)
+        {
+            <tr>
+                @foreach (var cell in row.ItemArray)
+                {
+                    <td>@cell</td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<h3>Send Report as CSV</h3>
+<div class="col-md-4">
+    <form method="post" action="/Email/SendReport">
+        <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="SenderEmail" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Your Email Password</label>
+            <input type="password" name="SenderPassword" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Recipient Email</label>
+            <input type="email" name="RecipientEmail" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Send Report</button>
+    </form>
+</div>

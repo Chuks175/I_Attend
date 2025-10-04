@@ -1,12 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using I_Attend.Data;
 using I_Attend.Models;
-using I_Attend.Data;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Formats;
 using SixLabors.ImageSharp.Formats.Jpeg;
 using SixLabors.ImageSharp.Formats.Png;
-using System.IO;
 
 namespace I_Attend.Controllers
 {
@@ -23,13 +22,13 @@ namespace I_Attend.Controllers
             _webHostEnvironment = webHostEnvironment ?? throw new ArgumentNullException(nameof(webHostEnvironment));
         }
 
-        [Authorize(Roles = "User")]
+        //[Authorize(Roles = "User")]
         public IActionResult Capture()
         {
             return View();
         }
 
-        [Authorize (Roles = "User")]
+        //[Authorize(Roles = "User")]
         [HttpPost]
         public async Task<IActionResult> Capture(string matricNumber)
         {
@@ -119,9 +118,9 @@ namespace I_Attend.Controllers
             {
                 using (var stream = new MemoryStream(bytes))
                 {
-                    IImageFormat format = Image.DetectFormat(stream); 
+                    IImageFormat format = Image.DetectFormat(stream);
                     return format is JpegFormat || format is PngFormat;
-                   
+
                 }
             }
             catch

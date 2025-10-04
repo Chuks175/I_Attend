@@ -236,16 +236,14 @@
 
 
 
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using I_Attend.Data;
 using I_Attend.Models;
-using Microsoft.Extensions.Logging;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using System.Security.Claims;
 
 namespace I_Attend.Controllers
 {
@@ -302,7 +300,7 @@ namespace I_Attend.Controllers
             if (ModelState.IsValid)
             {
                 var user = (await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number);
-                if ( user == null)
+                if (user == null)
                 {
                     ModelState.AddModelError("Matric_Number", "Matric number does not exists.");
                     return View(model);
@@ -339,8 +337,8 @@ namespace I_Attend.Controllers
 
                 if (ModelState.IsValid)
                 {
-                   await _context.AddViewAsync(view);
-                   return RedirectToAction(nameof(CreateCourse));
+                    await _context.AddViewAsync(view);
+                    return RedirectToAction(nameof(CreateCourse));
                 }
                 ModelState.AddModelError("", "Registration failed. Please try again.");
             }
@@ -348,72 +346,105 @@ namespace I_Attend.Controllers
             return View(model);
         }
 
-            
-            //if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number))
-            //{
-            //    ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
-            //    return View(model);
-            //}
-            //var view = new View
-            //{
-            //    Course_code = model.Course_code
-            //};
-            //if (ModelState.IsValid)
-            //{
-            //    await _context.UpdateViewAsync(model);
-            //    return RedirectToAction(nameof(Index));
-            //}
-            //return View(model);
-            //View model = new View();
-            //model.CourseList.Add(new CourseListItem{Text= "Computer Graphics Animation",Value= "ECE5250"}
+
+        //if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number))
+        //{
+        //    ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
+        //    return View(model);
+        //}
+        //var view = new View
+        //{
+        //    Course_code = model.Course_code
+        //};
+        //if (ModelState.IsValid)
+        //{
+        //    await _context.UpdateViewAsync(model);
+        //    return RedirectToAction(nameof(Index));
+        //}
+        //return View(model);
+        //View model = new View();
+        //model.CourseList.Add(new CourseListItem{Text= "Computer Graphics Animation",Value= "ECE5250"}
 
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null)
+            var view1 = (await _context.GetViewsAsync()).FirstOrDefault(m => m.Id == id);
+            if (view1 == null)
             {
                 return NotFound();
             }
-            var view = (await _context.GetViewsAsync()).FirstOrDefault(m => m.Id == id);
-            if (view == null)
+            var view = new View
             {
-                return NotFound();
-            }
+                UserNames = view1.UserNames,
+                Department = view1.Department,
+                Email = view1.Email,
+                Matric_Number = view1.Matric_Number,
+                Password = view1.Password,
+                Course_code = view1.Course_code
+            };
+
+            //var view = (await _context.GetViewsAsync()).FirstOrDefault(m => m.Id == id);
+            //if (view == null)
+            //{
+            //    return NotFound();
+            //}
             return View(view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, View view)
+        public async Task<IActionResult> Edit(View view)
         {
-            if (id != view.Id)
+            //if (id != view.Id)
+            //{
+            //    return NotFound();
+            //}
+            if (ModelState.IsValid)
+            {
+                return View(view);
+            }
+            
+
+            var view1 = (await _context.GetViewsAsync()).FirstOrDefault(m => m.Id == view.Id);
+            if (view1 == null)
             {
                 return NotFound();
             }
-            if (ModelState.IsValid)
+
+            if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == view.Matric_Number))
             {
-                try
-                {
-
-                    //var views = _context.UpdateView();
-                    await _context.UpdateViewAsync(view);
-                    //var existingViews = views.FirstOrDefault(v => v.Id == id);
-
-                }
-
-                catch (Exception ex)
-                {
-                    _logger.LogError(ex, "Error updating view with ID {Id}", view.Id);
-                    ModelState.AddModelError("", "An error occurred while saving. Please try again.");
-
-                    if (!await _context.ViewExistsAsync(id))
-                    {
-                        return NotFound();
-                    }
-                }
+                ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
+                return View(view);
             }
-            return View(view);
+
+            // Update values
+            view1.UserNames = view.UserNames;
+            view1.Department = view.Department;
+            view1.Email = view.Email;
+            view1.Matric_Number = view.Matric_Number;
+            view1.Password = view.Password;
+            view1.Course_code = view.Course_code;
+
+             
+
+            //var views = _context.UpdateView();
+            //await _context.UpdateViewAsync(view);
+            //var existingViews = views.FirstOrDefault(v => v.Id == id);
+
+            await _context.SaveChangesAsync(view1);
+
+            //_logger.LogError("", "Error updating view with ID {Id}", view1.Id);
+            ModelState.AddModelError("", "An error occurred while saving. Please try again.");
+
+            //if (!await _context.ViewExistsAsync(id))
+            //{
+            //    return NotFound();
+            //}
+
+
+            return RedirectToAction(nameof(Index));
+
         }
 
         [Authorize(Roles = "Admin")]
@@ -431,7 +462,7 @@ namespace I_Attend.Controllers
             return View(view);
         }
 
-        [Authorize(Roles =  "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -443,7 +474,7 @@ namespace I_Attend.Controllers
 
         public async Task<IActionResult> ViewExists(int id)
         {
-           var views = (await _context.GetViewsAsync()).FirstOrDefault(e=> e.Id == id);
+            var views = (await _context.GetViewsAsync()).FirstOrDefault(e => e.Id == id);
             return View(views);   //Any(e => e.Id == id);
         }
 
@@ -489,22 +520,23 @@ namespace I_Attend.Controllers
             return View(model);
         }
 
-        [Authorize(Roles = "User")]
+        
         public IActionResult Register()
         {
             return View();
         }
 
-        [Authorize(Roles = "User")]
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number))
+                if ((await _context.GetViewsAsync()).Any(v => v.Matric_Number == model.Matric_Number) || (await _context.GetViewsAsync()).Any(v => v.Email == model.Email))
                 {
                     ModelState.AddModelError("Matric_Number", "Matric number is already taken.");
+                    ModelState.AddModelError("Email", "Email can't be used, it's already used.");
                     return View(model);
                 }
                 var view = new View
@@ -525,7 +557,7 @@ namespace I_Attend.Controllers
             //return View("~/Views/Camera/Profile.cshtml", view);
         }
 
-        public IActionResult AdminLogin() 
+        public IActionResult AdminLogin()
         {
             return View();
         }
@@ -534,7 +566,7 @@ namespace I_Attend.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AdminLogin(AdminViewModel model)
         {
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
                 if (model.User == "Admin1" && model.Password == "123Pa$$word")
                 {
@@ -567,7 +599,7 @@ namespace I_Attend.Controllers
             }
             return View(model);
         }
-        
+
 
         public async Task<IActionResult> Logout()
         {

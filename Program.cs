@@ -1,3 +1,4 @@
+using I_Attend;
 using I_Attend.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
@@ -24,6 +25,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         //options.SlidingExpiration = true;
     });
 
+/* Authorization using Policy method */
+
 //builder.Services.AddAuthorization(options =>
 //{
 //    // Policy for authenticated users only
@@ -31,6 +34,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 //        policy.RequireAuthenticatedUser());
 
 //});
+builder.Services.AddTransient<EmailService>();
 
 builder.Services.AddScoped<I_AttendDAO>(provider =>
     new I_AttendDAO(builder.Configuration.GetConnectionString("DefaultConnection"),

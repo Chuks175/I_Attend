@@ -77,3 +77,4 @@ wwwroot\webcam\package.json
 wwwroot\webcam\README.md
 wwwroot\webcam\webcam.js
 wwwroot\webcam\webcam.swf
+wwwroot\CameraPhotos\5fcbb0c7-c91f-4345-b2d8-5aa81ff91046_10EG02126.jpg

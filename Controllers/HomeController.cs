@@ -1,8 +1,7 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using I_Attend.Models;
-using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace I_Attend.Controllers;
 
@@ -32,7 +31,7 @@ public class HomeController : Controller
     }
 
     [Authorize(Roles = "User")]
-    public IActionResult User() 
+    public IActionResult User()
     {
         return View();
     }

@@ -278,8 +278,6 @@
 
 using I_Attend.Models;
 using MySql.Data.MySqlClient;
-using Microsoft.Extensions.Logging;
-using BCrypt.Net;
 using System.Data;
 
 namespace I_Attend.Data
@@ -291,11 +289,12 @@ namespace I_Attend.Data
         Task UpdateViewAsync(View view);
         Task DeleteViewAsync(int id);
         Task<bool> SaveChangesAsync(View view);
-        Task<View>GetByIdAsync(int id);
+        Task<View> GetByIdAsync(int id);
         Task<View> GetUserCredentialsAsync(string email, string password, string matricNumber);
         Task<bool> RegisterCredentialsAsync(View view);
         Task<bool> ViewExistsAsync(int id);
         Task<bool> AddStudentImageAsync(string matricNumber, byte[] imageData);
+        DataTable GetData();
     }
 
     public class I_AttendDAO : IAttendDAO
@@ -450,18 +449,18 @@ namespace I_Attend.Data
             }
         }
 
-        public async Task<bool> SaveChangesAsync(View view) 
+        public async Task<bool> SaveChangesAsync(View view)
         {
             try
             {
-                View initialview = await GetByIdAsync(view.Id);  
+                View initialview = await GetByIdAsync(view.Id);
                 if (initialview == null)
                 {
-                    return false; 
+                    return false;
                 }
 
-                string passwordParam = initialview.Password;  
-                if (!string.IsNullOrEmpty(view.Password) && view.Password != initialview.Password)  
+                string passwordParam = initialview.Password;
+                if (!string.IsNullOrEmpty(view.Password) && view.Password != initialview.Password)
                 {
                     passwordParam = BCrypt.Net.BCrypt.HashPassword(view.Password);
                 }
@@ -484,7 +483,7 @@ namespace I_Attend.Data
                     }
                 }
             }
-            catch (MySqlException ex) 
+            catch (MySqlException ex)
             {
                 _logger.LogError(ex, "Error Saving changes to ID {Id}", view.Id);
                 throw;
@@ -493,7 +492,7 @@ namespace I_Attend.Data
 
         public async Task<View> GetByIdAsync(int id)
         {
-            try 
+            try
             {
                 using (var connection = new MySqlConnection(_connectionString))
                 {
@@ -506,7 +505,7 @@ namespace I_Attend.Data
                         {
                             if (await reader.ReadAsync())
                             {
-                                return new View 
+                                return new View
                                 {
                                     Id = reader.GetInt32("Id"),
                                     UserNames = reader.IsDBNull("UserNames") ? null : reader.GetString("UserNames"),
@@ -514,7 +513,7 @@ namespace I_Attend.Data
                                     Course_code = reader.IsDBNull("Course_code") ? null : reader.GetString("Course_code"),
                                     Email = reader.IsDBNull("Email") ? null : reader.GetString("Email"),
                                     Matric_Number = reader.IsDBNull("Matric_Number") ? null : reader.GetString("Matric_Number"),
-                                    Password = reader.IsDBNull("Password") ? null : reader.GetString("Password") 
+                                    Password = reader.IsDBNull("Password") ? null : reader.GetString("Password")
                                 };
                             }
                         }
@@ -525,7 +524,7 @@ namespace I_Attend.Data
             catch (MySqlException ex)
             {
                 _logger.LogError(ex, "Error fetching content of Id from database");
-                throw; 
+                throw;
             }
         }
 
@@ -620,6 +619,30 @@ namespace I_Attend.Data
             catch (MySqlException ex)
             {
                 _logger.LogError(ex, "Error registering user with Email {Email}", view.Email);
+                throw;
+            }
+        }
+
+        public DataTable GetData() 
+        {
+            var dt = new DataTable();
+            try
+            {
+                using (var connection = new MySqlConnection(_connectionString))
+                {
+                    connection.Open();
+                    using (var command = new MySqlCommand("SELECT * FROM ECE5251", connection))
+                    using (var adapter = new MySqlDataAdapter(command))
+                    {
+                        adapter.Fill(dt);
+                    }
+
+                }
+                return dt;
+            }
+            catch (MySqlException ex) 
+            {
+                _logger.LogError(ex, "Error fetching data from database");
                 throw;
             }
         }

@@ -12,7 +12,7 @@
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" /> 
+             
             <div class="form-group">
                 <label asp-for="UserNames" class="control-label"></label>
                 <input asp-for="UserNames" class="form-control" />
@@ -43,18 +43,31 @@
                 <input asp-for="Password" class="form-control" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
-            <div>
-                <input type="submit" value="Edit" class="btn btn-primary" />
-            </div>
+            
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a asp-action="Index">Back to List</a>
+
+            
         </form>
+
     </div>
 </div>
 
-<div>
+@* <div>
     <a asp-action="Index">Back to List</a>
-</div>
+</div> *@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+
 @*<form asp-action="" method="post">*@
+
+
+
+
+
+
+

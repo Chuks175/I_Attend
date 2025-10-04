@@ -1,8 +1,6 @@
 ﻿#nullable disable
 
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Mvc;
 
 namespace I_Attend
 {
@@ -13,7 +11,10 @@ namespace I_Attend
         public int Matric_Number;
         public int department;
         public int ImageData;
-        public void CustomLabel() {}
+        public int Course_code;
+        public int Password;
+        public int Email;
+        public void CustomLabel() { }
 
         //public static void Main()
         //{
@@ -41,6 +42,18 @@ namespace I_Attend
         [DataType(DataType.Custom)]
         //[ScaffoldColumn(false)]
         public object ImageData { get; set; }
+
+        [Required]
+        [DataType(DataType.Custom)]
+        public object Course_code { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        public object Password { get; set; }
+
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        public object Email { get; set; }
 
     }
 }

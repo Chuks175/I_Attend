@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using I_Attend.Models;
-using MySql.Data.MySqlClient;
-using System.Collections.Generic;
 
 //using MySqlConnector;
 
