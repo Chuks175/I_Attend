@@ -1,0 +1,12 @@
+[Unit]
+Description=Facial Recognition Script
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/kali/Documents/attendance_system (7).py
+WorkingDirectory=/home/kali/Documents
+Restart=on-failure
+User=kali
+
+[Install]
+WantedBy=multi-user.target
